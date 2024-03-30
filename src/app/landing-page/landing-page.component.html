@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIP Delivery</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/images/vipdelivery.png" alt="VIP Delivery">
+        </div>
+        <div class="header-content">
+            <div class="search-box">
+                <input #myInput type="text" name="q" placeholder="What do you need..." (keyup.enter)="doSearch(myInput.value)">
+                
+            </div>
+            <div class="login-container">
+                <app-login-status></app-login-status>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
