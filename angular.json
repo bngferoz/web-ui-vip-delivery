@@ -13,6 +13,15 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "lodash",
+              "@babel/runtime-corejs3",
+              "@okta/okta-signin-widget",
+              "detect-node",
+              "tiny-emitter",
+              "p-cancelable",
+              "cross-fetch"
+            ],
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
