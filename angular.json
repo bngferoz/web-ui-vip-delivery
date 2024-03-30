@@ -22,7 +22,7 @@
               "p-cancelable",
               "cross-fetch"
             ],
-            "outputPath": "docs",
+            "outputPath": "dist/vip-delivery",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
